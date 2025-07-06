@@ -1,5 +1,6 @@
 # Internet-ready HTTPS C2 Server
 # For legitimate security research and testing purposes
+#openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 365     RUN this command to create ssl certificate
 
 from flask import Flask, request, jsonify
 import ssl
