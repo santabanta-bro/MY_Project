@@ -1,5 +1,8 @@
 # Internet-ready HTTPS C2 Controller
 # For legitimate security research and testing purposes
+# run this code by python .\Command.py --server https://192.168.1.7:8443 --no-verify
+#https://192.168.1.7:8443 should be you server IP
+
 
 import requests
 import json
